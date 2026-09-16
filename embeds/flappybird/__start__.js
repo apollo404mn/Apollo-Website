@@ -4,6 +4,7 @@
 
     // Needed as we will have edge cases for particlar versions of iOS
     // returns null if not iOS
+    // In order to get ts to work
     var getIosVersion = function () {
         if (/iP(hone|od|ad)/.test(navigator.platform)) {
             var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
